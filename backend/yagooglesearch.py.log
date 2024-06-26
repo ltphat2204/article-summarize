@@ -686,3 +686,293 @@
 2024-06-26 18:26:26,455 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?esrc=s&q=&rct=j&sa=U&url=https://www.youtube.com/watch%3Fv%3D443rz2MIxkE&ved=2ahUKEwifxv7GlPmGAxVujK8BHevPB6cQtwJ6BAgDEAE&usg=AOvVaw3iacMx7M2dP9a3AZusK69n
 2024-06-26 18:26:26,455 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=443rz2MIxkE
 2024-06-26 18:26:26,456 [MainThread  ] [INFO] Found unique URL #20: https://www.youtube.com/watch?v=443rz2MIxkE
+2024-06-26 18:27:59,587 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-06-26 18:27:59,856 [MainThread  ] [DEBUG]     status_code: 200
+2024-06-26 18:27:59,857 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.7) Gecko/20100726 CentOS/3.6-3.el5.centos Firefox/3.6.7'}
+2024-06-26 18:27:59,857 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie AEC=AQTF6HwVQmFoquDvMTxkMaqNJrbZ4MCPC-6NEHlaCHyooxZU5fn-xAnIty4 for .google.com/>, <Cookie NID=515=KbJB4_L4fRMZIfdPkovxAXBP9tvCptkcgAJexp_vhsZCLfzVhlY-T-e3T0lQxXAlzbLpn0gz9mb5kOHVtyHSkpquJCipKmZOn8KiJCWOhku3avkk4FGxwdpcVlt1FxbqeirbcQKsSHQ1RXJ_WWdU_GPtKPG8ar9NgFBsswh8k14 for .google.com/>]>
+2024-06-26 18:27:59,858 [MainThread  ] [DEBUG]     proxy: 
+2024-06-26 18:27:59,858 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-06-26 18:27:59,859 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=20
+2024-06-26 18:27:59,859 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=vi&lr=lang_vi&q=c%E1%BB%95+phi%E1%BA%BFu&num=100&btnG=Google+Search&tbs=qdr:d&safe=off&cr=&filter=0
+2024-06-26 18:28:00,674 [MainThread  ] [DEBUG]     status_code: 200
+2024-06-26 18:28:00,674 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.7) Gecko/20100726 CentOS/3.6-3.el5.centos Firefox/3.6.7'}
+2024-06-26 18:28:00,674 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[]>
+2024-06-26 18:28:00,675 [MainThread  ] [DEBUG]     proxy: 
+2024-06-26 18:28:00,675 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-06-26 18:28:00,741 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QOwgC
+2024-06-26 18:28:00,742 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QOwgC
+2024-06-26 18:28:00,742 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,742 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sa=G&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi&gbv=1&sei=P_t7ZsGDHPapvr0PidOWaA
+2024-06-26 18:28:00,742 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sa=G&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi&gbv=1&sei=P_t7ZsGDHPapvr0PidOWaA
+2024-06-26 18:28:00,743 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,743 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=nws&source=lnms&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q_AUIBigB
+2024-06-26 18:28:00,743 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=nws&source=lnms&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q_AUIBigB
+2024-06-26 18:28:00,743 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,743 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=isch&source=lnms&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q_AUIBygC
+2024-06-26 18:28:00,744 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=isch&source=lnms&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q_AUIBygC
+2024-06-26 18:28:00,744 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,744 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=vid&source=lnms&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q_AUICCgD
+2024-06-26 18:28:00,744 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=vid&source=lnms&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q_AUICCgD
+2024-06-26 18:28:00,744 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,745 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=/search%3Fq%3Dc%25E1%25BB%2595%2Bphi%25E1%25BA%25BFu%26num%3D100%26lr%3Dlang_vi%26safe%3Doff%26sca_esv%3Dadbfb286f5487dcf%26sca_upv%3D1%26hl%3Dvi%26tbs%3Dlr:lang_1vi%26tbm%3Dshop%26source%3Dlnms%26ved%3D1t:200713%26ictx%3D111&opi=89978449&sa=U&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QiaAMCAkoBA&usg=AOvVaw2NNyE5_IOeWP8E-5QVnvC9
+2024-06-26 18:28:00,745 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=shop&source=lnms&ved=1t:200713&ictx=111
+2024-06-26 18:28:00,745 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,745 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=bks&source=lnms&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q_AUICigF
+2024-06-26 18:28:00,746 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=bks&source=lnms&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q_AUICigF
+2024-06-26 18:28:00,746 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,746 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /advanced_search
+2024-06-26 18:28:00,746 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /advanced_search
+2024-06-26 18:28:00,747 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,747 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi,dur:s&source=lnt&tbm=vid&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIDA
+2024-06-26 18:28:00,747 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi,dur:s&source=lnt&tbm=vid&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIDA
+2024-06-26 18:28:00,747 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,747 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi,dur:m&source=lnt&tbm=vid&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIDQ
+2024-06-26 18:28:00,748 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi,dur:m&source=lnt&tbm=vid&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIDQ
+2024-06-26 18:28:00,748 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,748 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi,dur:l&source=lnt&tbm=vid&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIDg
+2024-06-26 18:28:00,748 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi,dur:l&source=lnt&tbm=vid&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIDg
+2024-06-26 18:28:00,748 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,749 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d&tbas=0&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIDw
+2024-06-26 18:28:00,749 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d&tbas=0&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIDw
+2024-06-26 18:28:00,749 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,749 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbas=0&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIEQ
+2024-06-26 18:28:00,749 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbas=0&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIEQ
+2024-06-26 18:28:00,750 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,750 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:h&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIEg
+2024-06-26 18:28:00,750 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:h&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIEg
+2024-06-26 18:28:00,750 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,750 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:w&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIFA
+2024-06-26 18:28:00,750 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:w&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIFA
+2024-06-26 18:28:00,751 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,751 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:m&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIFQ
+2024-06-26 18:28:00,751 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:m&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIFQ
+2024-06-26 18:28:00,751 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,751 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:y&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIFg
+2024-06-26 18:28:00,752 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:y&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIFg
+2024-06-26 18:28:00,752 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,752 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=li:1&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIGA
+2024-06-26 18:28:00,752 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=c%E1%BB%95+phi%E1%BA%BFu&num=100&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=li:1&source=lnt&sa=X&ved=0ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QpwUIGA
+2024-06-26 18:28:00,753 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,753 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/search?hl=vi&q=c%E1%BB%95+phi%E1%BA%BFu&num=100&btnG=Google+Search&safe=off&cr=&filter=0
+2024-06-26 18:28:00,753 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/search?hl=vi&q=c%E1%BB%95+phi%E1%BA%BFu&num=100&btnG=Google+Search&safe=off&cr=&filter=0
+2024-06-26 18:28:00,753 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:28:00,753 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://vietstock.vn/2024/06/top-co-phieu-dang-chu-y-dau-phien-2606-830-1201382.htm&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QFnoECGMQAg&usg=AOvVaw00-TJxoZhTDlY5khSK-CMQ
+2024-06-26 18:28:00,753 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://vietstock.vn/2024/06/top-co-phieu-dang-chu-y-dau-phien-2606-830-1201382.htm
+2024-06-26 18:28:00,754 [MainThread  ] [INFO] Found unique URL #1: https://vietstock.vn/2024/06/top-co-phieu-dang-chu-y-dau-phien-2606-830-1201382.htm
+2024-06-26 18:28:00,754 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://nld.com.vn/chung-khoan-ngay-mai-26-6-co-hoi-mua-co-phieu-nganh-nao-196240625190229469.htm&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QFnoECFwQAg&usg=AOvVaw2mXiG40_YrC-39mHZdqcQv
+2024-06-26 18:28:00,754 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://nld.com.vn/chung-khoan-ngay-mai-26-6-co-hoi-mua-co-phieu-nganh-nao-196240625190229469.htm
+2024-06-26 18:28:00,754 [MainThread  ] [INFO] Found unique URL #2: https://nld.com.vn/chung-khoan-ngay-mai-26-6-co-hoi-mua-co-phieu-nganh-nao-196240625190229469.htm
+2024-06-26 18:28:00,754 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://vietstock.vn/2024/06/2606-doc-gi-truoc-gio-giao-dich-chung-khoan-830-1201649.htm&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QFnoECGAQAg&usg=AOvVaw33Od1fMUoS4n8N3CiemJ0I
+2024-06-26 18:28:00,755 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://vietstock.vn/2024/06/2606-doc-gi-truoc-gio-giao-dich-chung-khoan-830-1201649.htm
+2024-06-26 18:28:00,755 [MainThread  ] [INFO] Found unique URL #3: https://vietstock.vn/2024/06/2606-doc-gi-truoc-gio-giao-dich-chung-khoan-830-1201649.htm
+2024-06-26 18:28:00,755 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://vneconomy.vn/chung-khoan-my-phuc-hoi-theo-co-phieu-chip-dau-tut-gia.htm&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QFnoECFYQAg&usg=AOvVaw1rPk25UtXT8PjMSSsMjxS3
+2024-06-26 18:28:00,755 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://vneconomy.vn/chung-khoan-my-phuc-hoi-theo-co-phieu-chip-dau-tut-gia.htm
+2024-06-26 18:28:00,755 [MainThread  ] [INFO] Found unique URL #4: https://vneconomy.vn/chung-khoan-my-phuc-hoi-theo-co-phieu-chip-dau-tut-gia.htm
+2024-06-26 18:28:00,755 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://dantri.com.vn/kinh-doanh/co-phieu-o-to-khoi-sac-sau-de-xuat-giam-50-le-phi-truoc-ba-20240626133101444.htm&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QFnoECFoQAg&usg=AOvVaw0Yz2lQGsCIL4BkSVzmjV9h
+2024-06-26 18:28:00,756 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://dantri.com.vn/kinh-doanh/co-phieu-o-to-khoi-sac-sau-de-xuat-giam-50-le-phi-truoc-ba-20240626133101444.htm
+2024-06-26 18:28:00,756 [MainThread  ] [INFO] Found unique URL #5: https://dantri.com.vn/kinh-doanh/co-phieu-o-to-khoi-sac-sau-de-xuat-giam-50-le-phi-truoc-ba-20240626133101444.htm
+2024-06-26 18:28:00,756 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://dantri.com.vn/kinh-doanh/cu-quay-xe-cua-co-phieu-chuoi-resort-sang-chanh-bac-nhat-viet-nam-20240625171518613.htm&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QFnoECF4QAg&usg=AOvVaw0Dwry9a1_MU4hHpqhMDy7B
+2024-06-26 18:28:00,756 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://dantri.com.vn/kinh-doanh/cu-quay-xe-cua-co-phieu-chuoi-resort-sang-chanh-bac-nhat-viet-nam-20240625171518613.htm
+2024-06-26 18:28:00,757 [MainThread  ] [INFO] Found unique URL #6: https://dantri.com.vn/kinh-doanh/cu-quay-xe-cua-co-phieu-chuoi-resort-sang-chanh-bac-nhat-viet-nam-20240625171518613.htm
+2024-06-26 18:28:00,757 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://cafef.vn/dai-cat-tim-vang-tu-ket-qua-kinh-doanh-quy-2-2024-nhom-co-phieu-nao-ky-vong-thu-hut-dong-tien-188240625171310805.chn&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q0PADegQIARAD&usg=AOvVaw1pmnedSpGrArOxpnIybnN5
+2024-06-26 18:28:00,757 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://cafef.vn/dai-cat-tim-vang-tu-ket-qua-kinh-doanh-quy-2-2024-nhom-co-phieu-nao-ky-vong-thu-hut-dong-tien-188240625171310805.chn
+2024-06-26 18:28:00,757 [MainThread  ] [INFO] Found unique URL #7: https://cafef.vn/dai-cat-tim-vang-tu-ket-qua-kinh-doanh-quy-2-2024-nhom-co-phieu-nao-ky-vong-thu-hut-dong-tien-188240625171310805.chn
+2024-06-26 18:28:00,757 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://nld.com.vn/chung-khoan-ngay-mai-27-6-ba-nhom-co-phieu-nao-tiem-nang-196240626161923555.htm&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q0PADegQIARAH&usg=AOvVaw0VKH6Njj6iDD1WIqrAfGHC
+2024-06-26 18:28:00,758 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://nld.com.vn/chung-khoan-ngay-mai-27-6-ba-nhom-co-phieu-nao-tiem-nang-196240626161923555.htm
+2024-06-26 18:28:00,758 [MainThread  ] [INFO] Found unique URL #8: https://nld.com.vn/chung-khoan-ngay-mai-27-6-ba-nhom-co-phieu-nao-tiem-nang-196240626161923555.htm
+2024-06-26 18:28:00,758 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.tinnhanhchungkhoan.vn/co-phieu-can-quan-tam-ngay-276-post348249.html&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q0PADegQIARAL&usg=AOvVaw2k4r_MkNuaBFLc75Yv3SWl
+2024-06-26 18:28:00,758 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.tinnhanhchungkhoan.vn/co-phieu-can-quan-tam-ngay-276-post348249.html
+2024-06-26 18:28:00,759 [MainThread  ] [INFO] Found unique URL #9: https://www.tinnhanhchungkhoan.vn/co-phieu-can-quan-tam-ngay-276-post348249.html
+2024-06-26 18:28:00,759 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://cafef.vn/mot-ma-chung-khoan-duoc-tu-doanh-ctck-mua-rong-hang-tram-ty-trong-phien-26-6-nguoc-chieu-fpt-bi-ban-manh-188240626173746481.chn&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q0PADegQIARAP&usg=AOvVaw289oldPZLT_CBbptrBP4K6
+2024-06-26 18:28:00,759 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://cafef.vn/mot-ma-chung-khoan-duoc-tu-doanh-ctck-mua-rong-hang-tram-ty-trong-phien-26-6-nguoc-chieu-fpt-bi-ban-manh-188240626173746481.chn
+2024-06-26 18:28:00,759 [MainThread  ] [INFO] Found unique URL #10: https://cafef.vn/mot-ma-chung-khoan-duoc-tu-doanh-ctck-mua-rong-hang-tram-ty-trong-phien-26-6-nguoc-chieu-fpt-bi-ban-manh-188240626173746481.chn
+2024-06-26 18:28:00,759 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://znews.vn/chu-resort-tram-trieu-dongdem-neu-ly-do-co-phieu-tang-tran-lien-tiep-post1483115.html&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q0PADegQIARAT&usg=AOvVaw3Q2V3jjns9HZ7iwaEF7IO_
+2024-06-26 18:28:00,760 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://znews.vn/chu-resort-tram-trieu-dongdem-neu-ly-do-co-phieu-tang-tran-lien-tiep-post1483115.html
+2024-06-26 18:28:00,760 [MainThread  ] [INFO] Found unique URL #11: https://znews.vn/chu-resort-tram-trieu-dongdem-neu-ly-do-co-phieu-tang-tran-lien-tiep-post1483115.html
+2024-06-26 18:28:00,760 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://vnexpress.net/gioi-ban-khong-kiem-5-ty-usd-nho-nvidia-4762782.html&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q0PADegQIARAX&usg=AOvVaw1Gpr6n3KMBDX3oqgRVxyy-
+2024-06-26 18:28:00,760 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://vnexpress.net/gioi-ban-khong-kiem-5-ty-usd-nho-nvidia-4762782.html
+2024-06-26 18:28:00,760 [MainThread  ] [INFO] Found unique URL #12: https://vnexpress.net/gioi-ban-khong-kiem-5-ty-usd-nho-nvidia-4762782.html
+2024-06-26 18:28:00,761 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://vietstock.vn/2024/06/tuan-co-cau-manh-cua-quy-etf-tram-trieu-do-mua-hang-trieu-cp-evf-vhm-vic-3358-1201783.htm&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q0PADegQIARAb&usg=AOvVaw07AtylNkADX2HY7KFRhrKa
+2024-06-26 18:28:00,761 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://vietstock.vn/2024/06/tuan-co-cau-manh-cua-quy-etf-tram-trieu-do-mua-hang-trieu-cp-evf-vhm-vic-3358-1201783.htm
+2024-06-26 18:28:00,761 [MainThread  ] [INFO] Found unique URL #13: https://vietstock.vn/2024/06/tuan-co-cau-manh-cua-quy-etf-tram-trieu-do-mua-hang-trieu-cp-evf-vhm-vic-3358-1201783.htm
+2024-06-26 18:28:00,761 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://vietnamnet.vn/co-phieu-mcm-chinh-thuc-giao-dich-tren-hose-2295581.html&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q0PADegQIARAf&usg=AOvVaw2dtMTlYo42Wiwi9LkFJ8YG
+2024-06-26 18:28:00,762 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://vietnamnet.vn/co-phieu-mcm-chinh-thuc-giao-dich-tren-hose-2295581.html
+2024-06-26 18:28:00,762 [MainThread  ] [INFO] Found unique URL #14: https://vietnamnet.vn/co-phieu-mcm-chinh-thuc-giao-dich-tren-hose-2295581.html
+2024-06-26 18:28:00,762 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://vneconomy.vn/chung-khoan-my-phuc-hoi-theo-co-phieu-chip-dau-tut-gia.htm&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q0PADegQIARAj&usg=AOvVaw3p_y44sm8fK1GBgP5v1IQ3
+2024-06-26 18:28:00,762 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://vneconomy.vn/chung-khoan-my-phuc-hoi-theo-co-phieu-chip-dau-tut-gia.htm
+2024-06-26 18:28:00,762 [MainThread  ] [INFO] Duplicate URL found: https://vneconomy.vn/chung-khoan-my-phuc-hoi-theo-co-phieu-chip-dau-tut-gia.htm
+2024-06-26 18:28:00,763 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.24h.com.vn/doanh-nhan/sap-gia-nhap-nhom-doanh-nhan-nghin-ty-thieu-gia-do-quang-vinh-giau-co-nao-c606a1579801.html&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0Q0PADegQIARAn&usg=AOvVaw35g1lnXz5mchtuOflT9uPZ
+2024-06-26 18:28:00,763 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.24h.com.vn/doanh-nhan/sap-gia-nhap-nhom-doanh-nhan-nghin-ty-thieu-gia-do-quang-vinh-giau-co-nao-c606a1579801.html
+2024-06-26 18:28:00,763 [MainThread  ] [INFO] Found unique URL #15: https://www.24h.com.vn/doanh-nhan/sap-gia-nhap-nhom-doanh-nhan-nghin-ty-thieu-gia-do-quang-vinh-giau-co-nao-c606a1579801.html
+2024-06-26 18:28:00,763 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://tienphong.vn/hon-12-ty-co-phieu-bat-day-ve-tai-khoan-post1649624.tpo&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QFnoECEUQAg&usg=AOvVaw28VgSRVZvA3DHhlvF5ZdMP
+2024-06-26 18:28:00,763 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://tienphong.vn/hon-12-ty-co-phieu-bat-day-ve-tai-khoan-post1649624.tpo
+2024-06-26 18:28:00,764 [MainThread  ] [INFO] Found unique URL #16: https://tienphong.vn/hon-12-ty-co-phieu-bat-day-ve-tai-khoan-post1649624.tpo
+2024-06-26 18:28:00,764 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://vnexpress.net/warren-buffett-tang-toc-ban-co-phieu-byd-4762933.html&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QFnoECF8QAg&usg=AOvVaw2o1TyQmy8JZG2OSRz1IKpb
+2024-06-26 18:28:00,764 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://vnexpress.net/warren-buffett-tang-toc-ban-co-phieu-byd-4762933.html
+2024-06-26 18:28:00,764 [MainThread  ] [INFO] Found unique URL #17: https://vnexpress.net/warren-buffett-tang-toc-ban-co-phieu-byd-4762933.html
+2024-06-26 18:28:00,764 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.youtube.com/watch%3Fv%3DEprUYN-gms8&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QtwJ6BAgHEAE&usg=AOvVaw1HrDRJ_H5Iyp4stofdyk94
+2024-06-26 18:28:00,765 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=EprUYN-gms8
+2024-06-26 18:28:00,765 [MainThread  ] [INFO] Found unique URL #18: https://www.youtube.com/watch?v=EprUYN-gms8
+2024-06-26 18:28:00,765 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.youtube.com/watch%3Fv%3DEprUYN-gms8&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QuAJ6BAgHEAI&usg=AOvVaw3P0UxTOYNo2LaE81jnvgYi
+2024-06-26 18:28:00,765 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=EprUYN-gms8
+2024-06-26 18:28:00,765 [MainThread  ] [INFO] Duplicate URL found: https://www.youtube.com/watch?v=EprUYN-gms8
+2024-06-26 18:28:00,765 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://thitruongtaichinh.kinhtedothi.vn/chung-khoan/chung-khoan-shs-sap-chao-ban-hon-800-trieu-co-phieu-gia-10000-dongco-phieu-123570.html&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QFnoECFIQAg&usg=AOvVaw0chyiRHdEWERWAsyct_1iN
+2024-06-26 18:28:00,766 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://thitruongtaichinh.kinhtedothi.vn/chung-khoan/chung-khoan-shs-sap-chao-ban-hon-800-trieu-co-phieu-gia-10000-dongco-phieu-123570.html
+2024-06-26 18:28:00,766 [MainThread  ] [INFO] Found unique URL #19: https://thitruongtaichinh.kinhtedothi.vn/chung-khoan/chung-khoan-shs-sap-chao-ban-hon-800-trieu-co-phieu-gia-10000-dongco-phieu-123570.html
+2024-06-26 18:28:00,766 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://laodong.vn/kinh-doanh/co-phieu-duong-sat-bat-tang-hon-40-sau-cai-bat-tay-voi-ong-lon-trung-quoc-1357949.ldo&sa=U&ved=2ahUKEwiBn_TzlPmGAxX2lK8BHYmpBQ0QFnoECFkQAg&usg=AOvVaw0BmyH3uRLHaHKLkYr7qaSb
+2024-06-26 18:28:00,766 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://laodong.vn/kinh-doanh/co-phieu-duong-sat-bat-tang-hon-40-sau-cai-bat-tay-voi-ong-lon-trung-quoc-1357949.ldo
+2024-06-26 18:28:00,767 [MainThread  ] [INFO] Found unique URL #20: https://laodong.vn/kinh-doanh/co-phieu-duong-sat-bat-tang-hon-40-sau-cai-bat-tay-voi-ong-lon-trung-quoc-1357949.ldo
+2024-06-26 18:31:59,366 [MainThread  ] [INFO] Requesting URL: https://www.google.com/
+2024-06-26 18:31:59,623 [MainThread  ] [DEBUG]     status_code: 200
+2024-06-26 18:31:59,623 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; pt-PT; rv:1.9.2.6) Gecko/20100625 Firefox/3.6.6'}
+2024-06-26 18:31:59,623 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[<Cookie AEC=AQTF6HysY3NcsvRSJKzs74I8Jmn5OslmigeBfpvqiZy_PhfgnAGjmuFgDw for .google.com/>, <Cookie NID=515=mMdoEzT5ey2nTIiUFo7RaZG6ywWttkT4DGIxKto77_Oq3THgJiN96AMp5fm3W57bxYRwdgYubcqgIyPpHRjGmQBtrV7CAsDP0y0fQrMjSlqHlxtI6jfI8M3DzkJPz9gICVWrSAkHZAG_mo7w_y1U70DCX-X_zCQ_-aLS-OWXp9s for .google.com/>]>
+2024-06-26 18:31:59,623 [MainThread  ] [DEBUG]     proxy: 
+2024-06-26 18:31:59,623 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-06-26 18:31:59,623 [MainThread  ] [INFO] Stats: start=0, num=100, total_valid_links_found=0 / max_search_result_urls_to_return=20
+2024-06-26 18:31:59,623 [MainThread  ] [INFO] Requesting URL: https://www.google.com/search?hl=vi&lr=lang_vi&q=Putin&num=100&btnG=Google+Search&tbs=qdr:d&safe=off&cr=&filter=0
+2024-06-26 18:32:00,904 [MainThread  ] [DEBUG]     status_code: 200
+2024-06-26 18:32:00,904 [MainThread  ] [DEBUG]     headers: {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.1; pt-PT; rv:1.9.2.6) Gecko/20100625 Firefox/3.6.6'}
+2024-06-26 18:32:00,905 [MainThread  ] [DEBUG]     cookies: <RequestsCookieJar[]>
+2024-06-26 18:32:00,905 [MainThread  ] [DEBUG]     proxy: 
+2024-06-26 18:32:00,905 [MainThread  ] [DEBUG]     verify_ssl: True
+2024-06-26 18:32:01,049 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /?sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQOwgC
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /?sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQOwgC
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&lr=lang_vi&safe=off&sa=G&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi&gbv=1&sei=L_x7ZsaPEKTT1e8P4YGViAk
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sa=G&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi&gbv=1&sei=L_x7ZsaPEKTT1e8P4YGViAk
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=nws&source=lnms&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ_AUIBigB
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=nws&source=lnms&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ_AUIBigB
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=isch&source=lnms&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ_AUIBygC
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=isch&source=lnms&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ_AUIBygC
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=vid&source=lnms&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ_AUICCgD
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=vid&source=lnms&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ_AUICCgD
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=/search%3Fq%3DPutin%26num%3D100%26lr%3Dlang_vi%26safe%3Doff%26sca_esv%3Dadbfb286f5487dcf%26sca_upv%3D1%26hl%3Dvi%26tbs%3Dlr:lang_1vi%26tbm%3Dshop%26source%3Dlnms%26ved%3D1t:200713%26ictx%3D111&opi=89978449&sa=U&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQiaAMCAkoBA&usg=AOvVaw2KBks50UnBNyB3wxr0vivS
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=shop&source=lnms&ved=1t:200713&ictx=111
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=bks&source=lnms&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ_AUICigF
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbm=bks&source=lnms&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ_AUICigF
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /advanced_search
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /advanced_search
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,050 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi,dur:s&source=lnt&tbm=vid&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIDA
+2024-06-26 18:32:01,055 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi,dur:s&source=lnt&tbm=vid&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIDA
+2024-06-26 18:32:01,056 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,056 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi,dur:m&source=lnt&tbm=vid&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIDQ
+2024-06-26 18:32:01,056 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi,dur:m&source=lnt&tbm=vid&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIDQ
+2024-06-26 18:32:01,056 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,056 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi,dur:l&source=lnt&tbm=vid&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIDg
+2024-06-26 18:32:01,057 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d,lr:lang_1vi,dur:l&source=lnt&tbm=vid&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIDg
+2024-06-26 18:32:01,057 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,057 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d&tbas=0&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIDw
+2024-06-26 18:32:01,057 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=qdr:d&tbas=0&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIDw
+2024-06-26 18:32:01,057 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,058 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbas=0&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIEQ
+2024-06-26 18:32:01,058 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi&tbas=0&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIEQ
+2024-06-26 18:32:01,058 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,058 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:h&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIEg
+2024-06-26 18:32:01,058 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:h&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIEg
+2024-06-26 18:32:01,059 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,059 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:w&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIFA
+2024-06-26 18:32:01,059 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:w&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIFA
+2024-06-26 18:32:01,059 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,059 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:m&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIFQ
+2024-06-26 18:32:01,059 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:m&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIFQ
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:y&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIFg
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&lr=lang_vi&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=lr:lang_1vi,qdr:y&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIFg
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /search?q=Putin&num=100&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=li:1&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIGA
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] Excluding URL because it does not contain a urllib.parse.urlparse netloc value: /search?q=Putin&num=100&safe=off&sca_esv=adbfb286f5487dcf&sca_upv=1&hl=vi&tbs=li:1&source=lnt&sa=X&ved=0ahUKEwiG46DmlfmGAxWkafUHHeFABZEQpwUIGA
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: https://www.google.com/search?hl=vi&q=Putin&num=100&btnG=Google+Search&safe=off&cr=&filter=0
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] Excluding URL because it contains "google": https://www.google.com/search?hl=vi&q=Putin&num=100&btnG=Google+Search&safe=off&cr=&filter=0
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] post filter_search_result_urls() link: None
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://tapchicongthuong.vn/quoc-te-noi-bat--nuoc-co-moi-cua-tong-thong-putin-122818.htm&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ0PADegQIWBAD&usg=AOvVaw2QDHOyPzY2pSLzPFt-2Mgb
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://tapchicongthuong.vn/quoc-te-noi-bat--nuoc-co-moi-cua-tong-thong-putin-122818.htm
+2024-06-26 18:32:01,060 [MainThread  ] [INFO] Found unique URL #1: https://tapchicongthuong.vn/quoc-te-noi-bat--nuoc-co-moi-cua-tong-thong-putin-122818.htm
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://thanhnien.vn/thu-tuong-an-do-modi-sap-den-gap-tong-thong-putin-185240626101233188.htm&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ0PADegQIWBAH&usg=AOvVaw3TgPCHmwzSV2eC7AcDWDJV
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://thanhnien.vn/thu-tuong-an-do-modi-sap-den-gap-tong-thong-putin-185240626101233188.htm
+2024-06-26 18:32:01,060 [MainThread  ] [INFO] Found unique URL #2: https://thanhnien.vn/thu-tuong-an-do-modi-sap-den-gap-tong-thong-putin-185240626101233188.htm
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.24h.com.vn/tin-tuc-quoc-te/nga-dap-loi-khi-tong-thong-macron-noi-san-sang-doi-thoai-voi-ong-putin-c415a1580011.html&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ0PADegQIWBAL&usg=AOvVaw3cGQtlvnzNXoNqBCeNcFUP
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.24h.com.vn/tin-tuc-quoc-te/nga-dap-loi-khi-tong-thong-macron-noi-san-sang-doi-thoai-voi-ong-putin-c415a1580011.html
+2024-06-26 18:32:01,060 [MainThread  ] [INFO] Found unique URL #3: https://www.24h.com.vn/tin-tuc-quoc-te/nga-dap-loi-khi-tong-thong-macron-noi-san-sang-doi-thoai-voi-ong-putin-c415a1580011.html
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://baonghean.vn/di-den-cuoi-cung-tai-sao-ong-putin-khong-so-gi-ca-10274613.html&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ0PADegQIWBAP&usg=AOvVaw0gPHqMnPEyZdtkjPl6YcXL
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://baonghean.vn/di-den-cuoi-cung-tai-sao-ong-putin-khong-so-gi-ca-10274613.html
+2024-06-26 18:32:01,060 [MainThread  ] [INFO] Found unique URL #4: https://baonghean.vn/di-den-cuoi-cung-tai-sao-ong-putin-khong-so-gi-ca-10274613.html
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://baogialai.com.vn/sau-tong-thong-putin-va-ba-belova-toa-an-hinh-su-quoc-te-lenh-bat-them-2-quan-chuc-hang-dau-cua-nga-post282760.html&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ0PADegQIWBAT&usg=AOvVaw2a2QCN7JEvuXtWhp1uixKM
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://baogialai.com.vn/sau-tong-thong-putin-va-ba-belova-toa-an-hinh-su-quoc-te-lenh-bat-them-2-quan-chuc-hang-dau-cua-nga-post282760.html
+2024-06-26 18:32:01,060 [MainThread  ] [INFO] Found unique URL #5: https://baogialai.com.vn/sau-tong-thong-putin-va-ba-belova-toa-an-hinh-su-quoc-te-lenh-bat-them-2-quan-chuc-hang-dau-cua-nga-post282760.html
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.rfa.org/vietnamese/in_depth/welcoming-putin-is-vietnam-changing-its-policies-06252024130713.html&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ0PADegQIWBAX&usg=AOvVaw2T6U6FsaLLsdb4VDrvaA0E
+2024-06-26 18:32:01,060 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.rfa.org/vietnamese/in_depth/welcoming-putin-is-vietnam-changing-its-policies-06252024130713.html
+2024-06-26 18:32:01,065 [MainThread  ] [INFO] Found unique URL #6: https://www.rfa.org/vietnamese/in_depth/welcoming-putin-is-vietnam-changing-its-policies-06252024130713.html
+2024-06-26 18:32:01,065 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.nguoi-viet.com/binh-luan/du-am-cau-truc-an-ninh-moi-cua-putin/&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ0PADegQIWBAb&usg=AOvVaw1gkgl810ExzkNdYxUufvUm
+2024-06-26 18:32:01,065 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.nguoi-viet.com/binh-luan/du-am-cau-truc-an-ninh-moi-cua-putin/
+2024-06-26 18:32:01,065 [MainThread  ] [INFO] Found unique URL #7: https://www.nguoi-viet.com/binh-luan/du-am-cau-truc-an-ninh-moi-cua-putin/
+2024-06-26 18:32:01,065 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://nguoiquansat.vn/tuyen-bo-moi-nhat-cua-nga-lien-quan-den-dieu-kien-ngung-ban-tai-ukraine-139680.html&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ0PADegQIWBAf&usg=AOvVaw0G8Pa4TbbeXI8DPUkOHCo6
+2024-06-26 18:32:01,065 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://nguoiquansat.vn/tuyen-bo-moi-nhat-cua-nga-lien-quan-den-dieu-kien-ngung-ban-tai-ukraine-139680.html
+2024-06-26 18:32:01,066 [MainThread  ] [INFO] Found unique URL #8: https://nguoiquansat.vn/tuyen-bo-moi-nhat-cua-nga-lien-quan-den-dieu-kien-ngung-ban-tai-ukraine-139680.html
+2024-06-26 18:32:01,066 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://soha.vn/co-dong-vien-romania-co-ho-vang-putin-trong-tran-dau-voi-ukraine-o-euro-2024-uefa-dua-ra-bang-chung-198240625154844094.htm&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ0PADegQIWBAj&usg=AOvVaw1TmG_XIAuWQOV4y6san25q
+2024-06-26 18:32:01,066 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://soha.vn/co-dong-vien-romania-co-ho-vang-putin-trong-tran-dau-voi-ukraine-o-euro-2024-uefa-dua-ra-bang-chung-198240625154844094.htm
+2024-06-26 18:32:01,066 [MainThread  ] [INFO] Found unique URL #9: https://soha.vn/co-dong-vien-romania-co-ho-vang-putin-trong-tran-dau-voi-ukraine-o-euro-2024-uefa-dua-ra-bang-chung-198240625154844094.htm
+2024-06-26 18:32:01,066 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://vtcnews.vn/tong-thong-putin-de-xuat-cua-nga-co-the-giup-cham-dut-xung-dot-ukraine-ar879385.html&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQ0PADegQIWBAn&usg=AOvVaw2QU-YY8ZpAcba1A44lnONn
+2024-06-26 18:32:01,067 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://vtcnews.vn/tong-thong-putin-de-xuat-cua-nga-co-the-giup-cham-dut-xung-dot-ukraine-ar879385.html
+2024-06-26 18:32:01,067 [MainThread  ] [INFO] Found unique URL #10: https://vtcnews.vn/tong-thong-putin-de-xuat-cua-nga-co-the-giup-cham-dut-xung-dot-ukraine-ar879385.html
+2024-06-26 18:32:01,067 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.rfa.org/vietnamese/in_depth/what-was-vietnam-thinking-welcoming-putin-06252024110745.html&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQFnoECAgQAg&usg=AOvVaw0J0huNiOU6DkfNhe3i63i9
+2024-06-26 18:32:01,067 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.rfa.org/vietnamese/in_depth/what-was-vietnam-thinking-welcoming-putin-06252024110745.html
+2024-06-26 18:32:01,067 [MainThread  ] [INFO] Found unique URL #11: https://www.rfa.org/vietnamese/in_depth/what-was-vietnam-thinking-welcoming-putin-06252024110745.html
+2024-06-26 18:32:01,068 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://dantri.com.vn/the-gioi/quan-chuc-nga-de-xuat-cua-ong-putin-co-the-cham-dut-ngay-xung-dot-ukraine-20240625182314777.htm&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQFnoECDMQAg&usg=AOvVaw2xA6PlMqepbWWepNmTblj5
+2024-06-26 18:32:01,069 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://dantri.com.vn/the-gioi/quan-chuc-nga-de-xuat-cua-ong-putin-co-the-cham-dut-ngay-xung-dot-ukraine-20240625182314777.htm
+2024-06-26 18:32:01,069 [MainThread  ] [INFO] Found unique URL #12: https://dantri.com.vn/the-gioi/quan-chuc-nga-de-xuat-cua-ong-putin-co-the-cham-dut-ngay-xung-dot-ukraine-20240625182314777.htm
+2024-06-26 18:32:01,069 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://baonghean.vn/di-den-cuoi-cung-tai-sao-ong-putin-khong-so-gi-ca-10274613.html&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQFnoECA4QAg&usg=AOvVaw2LgUzxXxgk9ZaVLdWXabFk
+2024-06-26 18:32:01,069 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://baonghean.vn/di-den-cuoi-cung-tai-sao-ong-putin-khong-so-gi-ca-10274613.html
+2024-06-26 18:32:01,070 [MainThread  ] [INFO] Duplicate URL found: https://baonghean.vn/di-den-cuoi-cung-tai-sao-ong-putin-khong-so-gi-ca-10274613.html
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.youtube.com/watch%3Fv%3Dt-HYyjnfiCY&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQtwJ6BAhbEAE&usg=AOvVaw3rg1FlfXXQwolE4FlYLh1M
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=t-HYyjnfiCY
+2024-06-26 18:32:01,070 [MainThread  ] [INFO] Found unique URL #13: https://www.youtube.com/watch?v=t-HYyjnfiCY
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.youtube.com/watch%3Fv%3Dt-HYyjnfiCY&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQuAJ6BAhbEAI&usg=AOvVaw0zp9NzS1JTziBszCqQ6NBJ
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=t-HYyjnfiCY
+2024-06-26 18:32:01,070 [MainThread  ] [INFO] Duplicate URL found: https://www.youtube.com/watch?v=t-HYyjnfiCY
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://thanhnien.vn/thu-tuong-an-do-modi-sap-den-gap-tong-thong-putin-185240626101233188.htm&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQFnoECAsQAg&usg=AOvVaw0G_Vi5Xiq5ZSGB5yCh0Q-u
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://thanhnien.vn/thu-tuong-an-do-modi-sap-den-gap-tong-thong-putin-185240626101233188.htm
+2024-06-26 18:32:01,070 [MainThread  ] [INFO] Duplicate URL found: https://thanhnien.vn/thu-tuong-an-do-modi-sap-den-gap-tong-thong-putin-185240626101233188.htm
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://vnexpress.net/phap-muon-duy-tri-doi-thoai-voi-tong-thong-putin-4762582.html&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQFnoECCgQAg&usg=AOvVaw1vXpuWSaSL_MOXMp4v6qxU
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://vnexpress.net/phap-muon-duy-tri-doi-thoai-voi-tong-thong-putin-4762582.html
+2024-06-26 18:32:01,070 [MainThread  ] [INFO] Found unique URL #14: https://vnexpress.net/phap-muon-duy-tri-doi-thoai-voi-tong-thong-putin-4762582.html
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.youtube.com/watch%3Fv%3DTU1fPwfydXc&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQtwJ6BAhgEAE&usg=AOvVaw0oihCiIQpN8g0-jqV8H75F
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=TU1fPwfydXc
+2024-06-26 18:32:01,070 [MainThread  ] [INFO] Found unique URL #15: https://www.youtube.com/watch?v=TU1fPwfydXc
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.youtube.com/watch%3Fv%3DTU1fPwfydXc&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQuAJ6BAhgEAI&usg=AOvVaw1jVW-MynIGo9vD_nowoCdD
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=TU1fPwfydXc
+2024-06-26 18:32:01,070 [MainThread  ] [INFO] Duplicate URL found: https://www.youtube.com/watch?v=TU1fPwfydXc
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.youtube.com/watch%3Fv%3DBs3PKty9amA&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQtwJ6BAhZEAE&usg=AOvVaw3-Yq96An1Kjc8PaxQaVQgW
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=Bs3PKty9amA
+2024-06-26 18:32:01,070 [MainThread  ] [INFO] Found unique URL #16: https://www.youtube.com/watch?v=Bs3PKty9amA
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.youtube.com/watch%3Fv%3DBs3PKty9amA&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQuAJ6BAhZEAI&usg=AOvVaw3dxHNNKSpgesRsuEqDQ2BX
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=Bs3PKty9amA
+2024-06-26 18:32:01,070 [MainThread  ] [INFO] Duplicate URL found: https://www.youtube.com/watch?v=Bs3PKty9amA
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://vtcnews.vn/tong-thong-putin-de-xuat-cua-nga-co-the-giup-cham-dut-xung-dot-ukraine-ar879385.html&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQFnoECEUQAg&usg=AOvVaw3z_tSLJJO2Mb_KInWKOl4y
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://vtcnews.vn/tong-thong-putin-de-xuat-cua-nga-co-the-giup-cham-dut-xung-dot-ukraine-ar879385.html
+2024-06-26 18:32:01,070 [MainThread  ] [INFO] Duplicate URL found: https://vtcnews.vn/tong-thong-putin-de-xuat-cua-nga-co-the-giup-cham-dut-xung-dot-ukraine-ar879385.html
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.youtube.com/watch%3Fv%3DcMa0Lym_mIg&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQtwJ6BAhhEAE&usg=AOvVaw2DgWcNqqetxJMfmPyrhTH5
+2024-06-26 18:32:01,070 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=cMa0Lym_mIg
+2024-06-26 18:32:01,075 [MainThread  ] [INFO] Found unique URL #17: https://www.youtube.com/watch?v=cMa0Lym_mIg
+2024-06-26 18:32:01,075 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.youtube.com/watch%3Fv%3DcMa0Lym_mIg&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQuAJ6BAhhEAI&usg=AOvVaw3m2zZyWmacOLFxI_593YO5
+2024-06-26 18:32:01,075 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=cMa0Lym_mIg
+2024-06-26 18:32:01,075 [MainThread  ] [INFO] Duplicate URL found: https://www.youtube.com/watch?v=cMa0Lym_mIg
+2024-06-26 18:32:01,075 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://baothanhhoa.vn/video/ong-putin-kich-hoat-tap-tran-vu-khi-hat-nhan-chien-thuat-bat-tay-trieu-tien-my-va-nato-lanh-gay-217739.htm&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQtwJ6BAhaEAE&usg=AOvVaw2KHjowknaOODZFOd7kbGNb
+2024-06-26 18:32:01,075 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://baothanhhoa.vn/video/ong-putin-kich-hoat-tap-tran-vu-khi-hat-nhan-chien-thuat-bat-tay-trieu-tien-my-va-nato-lanh-gay-217739.htm
+2024-06-26 18:32:01,076 [MainThread  ] [INFO] Found unique URL #18: https://baothanhhoa.vn/video/ong-putin-kich-hoat-tap-tran-vu-khi-hat-nhan-chien-thuat-bat-tay-trieu-tien-my-va-nato-lanh-gay-217739.htm
+2024-06-26 18:32:01,076 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://baothanhhoa.vn/video/ong-putin-kich-hoat-tap-tran-vu-khi-hat-nhan-chien-thuat-bat-tay-trieu-tien-my-va-nato-lanh-gay-217739.htm&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQuAJ6BAhaEAI&usg=AOvVaw2UwkJXmS8gvhoFCvgMIaru
+2024-06-26 18:32:01,076 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://baothanhhoa.vn/video/ong-putin-kich-hoat-tap-tran-vu-khi-hat-nhan-chien-thuat-bat-tay-trieu-tien-my-va-nato-lanh-gay-217739.htm
+2024-06-26 18:32:01,076 [MainThread  ] [INFO] Duplicate URL found: https://baothanhhoa.vn/video/ong-putin-kich-hoat-tap-tran-vu-khi-hat-nhan-chien-thuat-bat-tay-trieu-tien-my-va-nato-lanh-gay-217739.htm
+2024-06-26 18:32:01,076 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://baomoi.com/quoc-te-noi-bat-nuoc-co-moi-cua-tong-thong-putin-c49465506.epi&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQFnoECE8QAg&usg=AOvVaw1iH7tOF8xEYSWf12QnJuz7
+2024-06-26 18:32:01,077 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://baomoi.com/quoc-te-noi-bat-nuoc-co-moi-cua-tong-thong-putin-c49465506.epi
+2024-06-26 18:32:01,077 [MainThread  ] [INFO] Found unique URL #19: https://baomoi.com/quoc-te-noi-bat-nuoc-co-moi-cua-tong-thong-putin-c49465506.epi
+2024-06-26 18:32:01,077 [MainThread  ] [DEBUG] pre filter_search_result_urls() link: /url?q=https://www.youtube.com/watch%3Fv%3DbUHiwmUCZkM&sa=U&ved=2ahUKEwiG46DmlfmGAxWkafUHHeFABZEQtwJ6BAhTEAE&usg=AOvVaw1Yo-BLYublso98PYwT-3LM
+2024-06-26 18:32:01,077 [MainThread  ] [DEBUG] post filter_search_result_urls() link: https://www.youtube.com/watch?v=bUHiwmUCZkM
+2024-06-26 18:32:01,077 [MainThread  ] [INFO] Found unique URL #20: https://www.youtube.com/watch?v=bUHiwmUCZkM
