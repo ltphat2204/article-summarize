@@ -34,7 +34,7 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
+import { ref } from 'vue';
 import SearchIcon from './components/icons/SearchIcon.vue';
 import LoadingDots from './components/LoadingComponent.vue';
 import ArticleRow from './components/ArticleRow.vue';
