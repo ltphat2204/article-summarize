@@ -2,7 +2,7 @@
 
 Với Article summarize, bạn có thể tóm tắt nhanh các tin tức nóng nhất trong ngày mà không cần phải đọc quá nhiều nguồn khác nhau. Từ đó, việc nắm bắt các tin tức nóng trong một thời gian ngắn trở nên dễ dàng hơn bao giờ hết.
 
-![Example](screenshots/Demo.png)
+![Example](screenshots/Demo1.png)
 
 ## Công nghệ sử dụng
 
