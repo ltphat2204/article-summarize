@@ -1,0 +1,11 @@
+uvicorn
+fastapi
+yagooglesearch
+bs4
+requests
+datetime
+pandas
+underthesea
+matplotlib
+wordcloud
+openpyxl
